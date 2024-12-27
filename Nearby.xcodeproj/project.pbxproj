@@ -15,6 +15,9 @@
 		B301258B2D07CE6E004DDEA8 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B301258A2D07CE6E004DDEA8 /* Colors.swift */; };
 		B30125902D07D2D0004DDEA8 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B301258F2D07D2D0004DDEA8 /* SplashViewController.swift */; };
 		B30125922D07D4BB004DDEA8 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30125912D07D4BB004DDEA8 /* SplashView.swift */; };
+		B30539732D1B5001006E256E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30539722D1B5001006E256E /* Category.swift */; };
+		B30539762D1B51E1006E256E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30539752D1B51E1006E256E /* HomeViewModel.swift */; };
+		B322C6AD2D1D0BFF00E41263 /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322C6AC2D1D0BFF00E41263 /* PlaceAnnotation.swift */; };
 		B34CA4522D0BD47900ECB418 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34CA4512D0BD47900ECB418 /* WelcomeViewController.swift */; };
 		B34CA4552D0BD9C900ECB418 /* UiViewController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34CA4542D0BD9C900ECB418 /* UiViewController+ext.swift */; };
 		B3734CB02D0A7907004A5A68 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3734CAF2D0A7907004A5A68 /* TipsView.swift */; };
@@ -25,6 +28,8 @@
 		B3C724F92D1A5B810055871D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C724F82D1A5B810055871D /* HomeViewController.swift */; };
 		B3C724FC2D1A5C1B0055871D /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C724FB2D1A5C1B0055871D /* PlaceTableViewCell.swift */; };
 		B3C724FF2D1A690E0055871D /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C724FE2D1A690E0055871D /* PlaceModel.swift */; };
+		B3E7BF622D1E641F0088C66A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7BF612D1E641F0088C66A /* DetailsViewController.swift */; };
+		B3E7BF642D1F0FD20088C66A /* WelcomeFlowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7BF632D1F0FD20088C66A /* WelcomeFlowDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +43,9 @@
 		B301258A2D07CE6E004DDEA8 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		B301258F2D07D2D0004DDEA8 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		B30125912D07D4BB004DDEA8 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		B30539722D1B5001006E256E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		B30539752D1B51E1006E256E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B322C6AC2D1D0BFF00E41263 /* PlaceAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
 		B34CA4512D0BD47900ECB418 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		B34CA4542D0BD9C900ECB418 /* UiViewController+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiViewController+ext.swift"; sourceTree = "<group>"; };
 		B3734CAF2D0A7907004A5A68 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
@@ -48,6 +56,8 @@
 		B3C724F82D1A5B810055871D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B3C724FB2D1A5C1B0055871D /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
 		B3C724FE2D1A690E0055871D /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		B3E7BF612D1E641F0088C66A /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		B3E7BF632D1F0FD20088C66A /* WelcomeFlowDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeFlowDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +149,7 @@
 		B301258D2D07D28C004DDEA8 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				B3E7BF602D1E640A0088C66A /* Details */,
 				B3C724F52D1A5B620055871D /* HomeView */,
 				B3734CB12D0A8399004A5A68 /* WelcomeView */,
 				B301258E2D07D296004DDEA8 /* Splash */,
@@ -154,6 +165,14 @@
 				B3AED4202D18CCFE006B3B9C /* SplashFlowDelegate.swift */,
 			);
 			path = Splash;
+			sourceTree = "<group>";
+		};
+		B30539742D1B51C5006E256E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B30539752D1B51E1006E256E /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		B34CA4532D0BD9A200ECB418 /* Extensions */ = {
@@ -177,6 +196,7 @@
 			children = (
 				B3734CB22D0A83D2004A5A68 /* WelcomeView.swift */,
 				B34CA4512D0BD47900ECB418 /* WelcomeViewController.swift */,
+				B3E7BF632D1F0FD20088C66A /* WelcomeFlowDelegate.swift */,
 			);
 			path = WelcomeView;
 			sourceTree = "<group>";
@@ -184,6 +204,7 @@
 		B3C724F52D1A5B620055871D /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
+				B30539742D1B51C5006E256E /* ViewModel */,
 				B3C724FA2D1A5C070055871D /* TableViewCell */,
 				B3C724F62D1A5B730055871D /* HomeView.swift */,
 				B3C724F82D1A5B810055871D /* HomeViewController.swift */,
@@ -203,8 +224,18 @@
 			isa = PBXGroup;
 			children = (
 				B3C724FE2D1A690E0055871D /* PlaceModel.swift */,
+				B30539722D1B5001006E256E /* Category.swift */,
+				B322C6AC2D1D0BFF00E41263 /* PlaceAnnotation.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		B3E7BF602D1E640A0088C66A /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				B3E7BF612D1E641F0088C66A /* DetailsViewController.swift */,
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,16 +307,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30539762D1B51E1006E256E /* HomeViewModel.swift in Sources */,
 				B30125862D07B1BA004DDEA8 /* NearbyFlowController.swift in Sources */,
 				B3C724F72D1A5B730055871D /* HomeView.swift in Sources */,
+				B3E7BF642D1F0FD20088C66A /* WelcomeFlowDelegate.swift in Sources */,
 				B3C724FF2D1A690E0055871D /* PlaceModel.swift in Sources */,
 				B34CA4522D0BD47900ECB418 /* WelcomeViewController.swift in Sources */,
 				B301258B2D07CE6E004DDEA8 /* Colors.swift in Sources */,
+				B30539732D1B5001006E256E /* Category.swift in Sources */,
 				B30125752D07AFF8004DDEA8 /* ViewController.swift in Sources */,
 				B3C724F92D1A5B810055871D /* HomeViewController.swift in Sources */,
 				B30125902D07D2D0004DDEA8 /* SplashViewController.swift in Sources */,
 				B3AED4212D18CCFE006B3B9C /* SplashFlowDelegate.swift in Sources */,
+				B3E7BF622D1E641F0088C66A /* DetailsViewController.swift in Sources */,
 				B3734CB32D0A83D2004A5A68 /* WelcomeView.swift in Sources */,
+				B322C6AD2D1D0BFF00E41263 /* PlaceAnnotation.swift in Sources */,
 				B3734CB02D0A7907004A5A68 /* TipsView.swift in Sources */,
 				B30125712D07AFF8004DDEA8 /* AppDelegate.swift in Sources */,
 				B3C724FC2D1A5C1B0055871D /* PlaceTableViewCell.swift in Sources */,
